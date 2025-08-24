@@ -1,0 +1,29 @@
+python-dotenv
+tqdm
+PyPDF2
+weaviate-client>=4.6.0
+google-generativeai
+sentence-transformers
+tiktoken
+reportlab
+
+# Core Vector DB client
+weaviate-client==4.6.4
+
+# Local embedding models
+sentence-transformers==2.7.0
+
+# Google Generative AI for lesson generation
+google-generativeai==0.7.2
+
+# PDF generation
+reportlab==4.2.2
+
+# Web app UI
+streamlit==1.38.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Utils
+tqdm==4.66.5
